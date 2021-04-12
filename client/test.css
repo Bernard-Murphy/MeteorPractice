@@ -1,0 +1,62 @@
+@font-face{
+  font-family: Raleway;
+  src: url('https://nanaimg.net/assets/Raleway-Regular.ttf');
+}
+
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+#div-crud-ops {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input-crud {
+  margin-top: 15px;
+}
+
+#h1-crud-practice {
+  text-align: center;
+}
+
+.div-crud-container {
+  border: 4px solid black;
+  padding: 30px;
+}
+
+.h2-crud-op {
+  text-align: center;
+}
+
+.button-crud {
+  margin-top: 15px;
+}
+
+#div-create-container {
+  background: #6ef5ad;
+}
+
+#div-read-container {
+  background: #6ea4f5;
+}
+
+#div-update-container {
+  background: #cd7ecf;
+}
+
+#div-delete-container {
+  background: #ffa947;
+}
+
+.div-info-piece {
+  margin: 15px auto;
+  padding: 20px;
+  border: 3px solid black;
+  width: max-content;
+}
+
+.text-center {
+  text-align: center;
+}

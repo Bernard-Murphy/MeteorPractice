@@ -1,0 +1,297 @@
+@font-face{
+    font-family: Raleway;
+    src: url("/assets/Raleway-Regular.ttf");
+}
+
+* {
+    font-family: Raleway;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url("/assets/background-grey.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+#img-mugshot {
+    display: block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 15px 15px 15px 0;
+}
+
+header {
+    display: flex;
+    background: #383838;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#h1-login {
+    text-align: center;
+    color: white;
+    font-size: 52px;
+    margin: 0 auto;
+}
+
+#div-back-button {
+    display: flex;
+    padding: 20px 0 20px 20px;
+    justify-self: start;
+    cursor: pointer;
+}
+
+
+#p-back {
+    color: white;
+    font-size: 35px;
+    margin-top: 11px;
+}
+
+
+#i-back {
+    color: white;
+    margin-right: 10px;
+}
+
+#h1-name {
+    font-size: 56px;
+    margin: 15px;
+    color: white;
+}
+
+#div-position {
+    display: flex;
+    margin: 10px auto;
+    width: max-content;
+}
+
+#p-position {
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+#i-position {
+    color: white;
+    margin-right: 10px;
+}
+
+#div-location {
+    display: flex;
+    margin: 10px auto;
+    width: max-content;
+}
+
+#p-location {
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+#i-location {
+    color: white;
+    margin-right: 10px;
+}
+
+#div-sign-out {
+    padding: 15px 30px 0 15px;
+    cursor: pointer;
+}
+
+#p-sign-out {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#i-sign-out {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#div-user-info {
+    display: flex;
+}
+
+
+/* Main Menu */
+
+#div-main-menu {
+    width: 80%;
+    background: #383838;
+    opacity: 80%;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.div-menu-items {
+    width: 65%;
+    background: #dbdbdb;
+    border: 4px solid white;
+    margin: 50px auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.div-item-holder {
+    width: 65%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.p-menu-items {
+    font-size: 30px;
+    text-align: center;
+}
+
+.div-menu-items-half {
+    width: 45%;
+    background: #dedede;
+    border: 4px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.p-menu-items-half {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div-login-field {
+    margin: 0 auto;
+    width: 65%;
+}
+
+.h3-login-field {
+    font-size: 40px;
+    margin: 20px 20px 20px 0;
+}
+
+.input-login-field {
+    width: 100%;
+    font-size: 40px;
+}
+
+#div-login-fields {
+    width: 65%;
+    background: #969696;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 40px;
+    border: 4px solid #383838;
+}
+
+#div-login-fields #div-menu-0 {
+    margin-bottom: 30px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.i-error {
+    color: #b81818;
+    margin-right: 10px;
+}
+
+.p-error-message {
+    font-size: 20px;
+    color: #b81818;
+}
+
+#div-loading, #div-error {
+    display: flex;
+    justify-content: center;
+}
+
+#p-loading, #p-error-main {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+#loading-icon {
+    width: 100px;
+    height: 75px;
+}
+
+
+#p-error-main {
+    color: #b81818;
+    text-align: center;
+}
+
+#h1-scanner, #h1-vehicles, #h1-search {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+#h1-search {
+    margin-bottom: 45px;
+}
+
+
+
+#img-scan-icon {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#img-mugshot-user-page {
+    display: block;
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+    margin: 0 auto;
+}
+
+#h1-user {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+#img-user-settings {
+    display: block;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 15px auto;
+}
+
+#div-settings-picture-container #div-menu-half-0 {
+    margin: 0 auto;
+    width: 75%;
+}
+
+#div-settings-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#div-settings-options-container {
+    width: 60%;
+}
+
+#h1-settings {
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}

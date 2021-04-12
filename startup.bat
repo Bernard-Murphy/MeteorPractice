@@ -1,0 +1,1 @@
+MONGO_URL='mongodb+srv://Bernard:12Characters@blazemeteor.lt5u0.mongodb.net/MeteorBlaze' meteor
