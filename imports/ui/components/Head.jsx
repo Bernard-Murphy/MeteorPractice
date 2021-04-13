@@ -20,7 +20,6 @@ class Head extends React.Component {
         // If at any point a user is no longer logged in, they will be redirected to the login page. 
         if (this.props.loggedIn === true){
             if (this.state.transitioned === true){
-                console.log('top')
                 this.setState({
                     ...this.state,
                     transitioned: false
@@ -30,7 +29,6 @@ class Head extends React.Component {
         }
         if (this.props.loggedIn === false){
             if (this.state.transitioned === false){
-                console.log('bottom')
                 this.props.history.push('/login');
                 this.setState({
                     ...this.state,
